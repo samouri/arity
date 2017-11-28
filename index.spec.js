@@ -32,6 +32,11 @@ test('should work for a function that directly accesses arguments with a constan
 	function six() {
 		arguments[5];
 	}
+	function three() {
+		arguments[2];
+		arguments[0];
+	}
 
 	expect(arity(six)).toBe(6);
+	expect(arity(three)).toBe(3);
 });

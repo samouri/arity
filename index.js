@@ -6,9 +6,7 @@ module.exports = function arity(fn) {
 
 	let match = arityRegex.exec(fnString);
 	while (match) {
-		if (match) {
-			maxParamAccessed = Math.max(maxParamAccessed, parseInt(match[1]) + 1);
-		}
+		maxParamAccessed = Math.max(maxParamAccessed, parseInt(match[1]) + 1);
 		match = arityRegex.exec(fnString);
 	}
 	return Math.max(namedParametersCount, maxParamAccessed);
