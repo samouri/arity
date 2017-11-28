@@ -4,7 +4,7 @@
   "description": "find the number of arguments that a function uses. arity.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
