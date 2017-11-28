@@ -1,5 +1,7 @@
 arity 
 =====
+[![CircleCI](https://circleci.com/gh/samouri/arity.svg?style=svg)](https://circleci.com/gh/samouri/arity)
+
 > In logic, mathematics, and computer science, the arity /ˈærɪti/ of a function is the number of arguments or operands that the function takes.
 
 Sometimes you want to be able to tell how many arguments a function takes.
