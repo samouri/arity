@@ -1,0 +1,27 @@
+{
+  "name": "arity",
+  "version": "0.1.0",
+  "description": "find the number of arguments that a function uses. arity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samouri/arity.git"
+  },
+  "keywords": [
+    "arity",
+    "fn",
+    "arguments"
+  ],
+  "author": "samouri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samouri/arity/issues"
+  },
+  "homepage": "https://github.com/samouri/arity#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
