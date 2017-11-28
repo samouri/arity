@@ -24,3 +24,5 @@ function doSomething(arg1, arg2) { ... }
 
 const arityOfDoSomething = arity(doSomething); // value will be 2
 ```
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
